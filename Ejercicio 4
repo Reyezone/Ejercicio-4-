@@ -1,0 +1,55 @@
+public class Main {
+
+    public static void main(String[] args) {
+        int Detector = (7);
+
+        if (Detector < 0) {
+            System.out.println("El numero " + Detector + " es negativo");
+        }
+        else if (Detector > 0) {
+            System.out.println("El numero " + Detector + " es positivo");
+        }
+        else if (Detector == 0){
+            System.out.println("El numero es 0");
+        }
+
+        int numeroWhile = (1);
+
+        while (numeroWhile < 3){
+            System.out.println(numeroWhile);
+            numeroWhile = numeroWhile + 1;
+        }
+
+        int number = (1);
+
+        do {
+            System.out.println(number);
+            number = number + 1;
+        }while (number < 3);
+
+        for (int numeroFor = 0; numeroFor <= 3; numeroFor = numeroFor + 1){
+            System.out.println(numeroFor);
+        }
+
+        var estacion = "pato";
+
+        switch (estacion){
+            case "Verano":
+                System.out.println("Actuamente es Verano");
+                break;
+            case "Otoño":
+                System.out.println("Actuamente es Otoño");
+                break;
+            case "Invierno":
+                System.out.println("Actuamente es Invierno");
+                break;
+            case "Primavera":
+                System.out.println("Actuamente es Primavera");
+                break;
+            default:
+                System.out.println( estacion +" No es una estacion");
+        }
+
+
+    }
+}
